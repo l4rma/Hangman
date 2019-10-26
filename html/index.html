@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman!</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <div class="header">
+       <h1>Hangman!</h1> 
+    </div>
+    
+    <div class="bokstav_alternativ">
+        <div class="alt_bokstav" id="A">A</div>
+        <div class="alt_bokstav" id="B">B</div>
+        <div class="alt_bokstav" id="C">C</div>
+        <div class="alt_bokstav" id="D">D</div>
+        <div class="alt_bokstav" id="E">E</div>
+        <div class="alt_bokstav" id="F">F</div>
+        <div class="alt_bokstav" id="G">G</div>
+        <div class="alt_bokstav" id="H">H</div>
+        <div class="alt_bokstav" id="I">I</div>
+        <div class="alt_bokstav" id="J">J</div>
+        <div class="alt_bokstav" id="K">K</div>
+        <div class="alt_bokstav" id="L">L</div>
+        <div class="alt_bokstav" id="M">M</div>
+        <div class="alt_bokstav" id="N">N</div>
+        <div class="alt_bokstav" id="O">O</div>
+        <div class="alt_bokstav" id="P">P</div>
+        <div class="alt_bokstav" id="Q">Q</div>
+        <div class="alt_bokstav" id="R">R</div>
+        <div class="alt_bokstav" id="S">S</div>
+        <div class="alt_bokstav" id="T">T</div>
+        <div class="alt_bokstav" id="U">U</div>
+        <div class="alt_bokstav" id="V">V</div>
+        <div class="alt_bokstav" id="W">W</div>
+        <div class="alt_bokstav" id="X">X</div>
+        <div class="alt_bokstav" id="Y">Y</div>
+        <div class="alt_bokstav" id="Z">Z</div>
+        <div class="alt_bokstav" id="Æ">Æ</div>
+        <div class="alt_bokstav" id="Ø">Ø</div>
+        <div class="alt_bokstav" id="Å">Å</div>
+    </div>
+    
+    <div class="hangman_man" id="hangman_manid">
+        <img src="../img/hangman-man.png" id="hangman-man"> 
+    </div>
+        <button id="but" onclick="lagløsningsord()">Selvvalgt Løsningsord</button>
+        <button id="generate-but" onclick="genererLøsningsord()">Generer Løsningsord</button>
+    
+    
+    <div class="bokstav_løsning">
+        <div id="løsningsord"></div>
+    </div>
+    <div class="message" id="message">Du gjettet riktig ord. Gratulerer!</div>
+    <script src="../js/script.js"></script>
+    <script src="../js/sammensatteord.js"></script>
+    <script src="../js/enkleord.js"></script>
+</body>
+
+</html>

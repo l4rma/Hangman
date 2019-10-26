@@ -1,0 +1,63 @@
+* {
+    margin: auto;
+    color: black;
+}
+.header {
+    width: auto;
+    background-color: #c1c1c1c1;
+    border: 1px solid black;
+    text-align: center;
+}
+.bokstav_alternativ {
+    border: 1px solid black;
+    background-color: #a1a1a1;
+    height: 50px;
+    width: 900px;
+    color: black;
+
+}
+
+.alt_bokstav {
+    font-size: 36px;
+    margin: 3px;
+    cursor: pointer;
+    float: left;
+    color: black;
+
+
+}
+
+img {
+    height: 300px;
+}
+
+.bokstav_løsning {
+    border: 1px solid black;
+    height: 100px;
+    margin: auto; 
+    background-color: #c1c1c1;
+    font-size: 80px;
+
+}
+
+.løsning {
+    font-size: 80px;
+    float: left;
+    margin: 5px;
+}
+
+
+.hangman_man {
+    margin: auto;
+}
+
+.message {
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 3px 3px black;
+    background-color: gray;
+    padding-left: 100px;
+    display: none;
+}
+
+
